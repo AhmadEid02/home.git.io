@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>exercise2</title>
+    <style>
+        .form{
+            padding: 10px;
+            
+            display: flex;
+            stroke: black;
+            width: 80%;
+        }
+        .form label{
+            padding-bottom : 10px;
+            
+        }
+    </style>
+</head>
+<body>
+    <div class="form">
+    <form action="">
+        <label>User Name</label><input type="text" name="userName">
+        <br>
+        <label>First Name</label><input type="text" name="FName">
+        <br>
+        <label>Last Name</label><input type="text" name="LName">
+        <br>
+        <label>Password</label><input type="password" name=pass">
+        <br>
+        <label>Re-enter Password</label><input type="password" name="repass">
+        <br>
+        <label>Email</label><input type="email" name="email">
+        <br>
+        <label>Gender</label>
+        <br>
+        <input type="radio" name="Gender" value="Male"> <label>Male</label>
+        <input type="radio" name="Gender" value="Female"> <label>Female</label>
+        <input type="radio" name="Gender" value="Other"> <label>Other</label>
+        <br>
+        <label >Current address:</label><br><textarea name="add" cols="30" rows="10">address:
+City:
+State:
+Zip code: 
+        </textarea>
+        <br>
+        <label>date of birth</label><input type="date">
+        <br>
+        <label >interest(s) of sports</label>
+        <input type="checkbox" name="interest" value="basketball">basketball
+        <input type="checkbox" name="interest" value="soccer">soccer
+        <input type="checkbox" name="interest" value="tennis">tennis
+        <input type="checkbox" name="interest" value="golf">golf 
+        <br>
+        <label>Major</label>
+        <select name="Major">
+            <option value="Finance">Finance</option>
+            <option value="Finance">CS</option>
+            <option value="Finance">BIT</option>
+            <option value="Finance">CIS</option>
+        </select>
+        <br>
+        <input type="submit">
+    </form>
+</div>
+</body>
+</html>
