@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>exercise8</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css"
+        integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+        integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.min.js"
+        integrity="sha384-+sLIOodYLS7CIrQpBjl+C7nPvqq+FbNUBDunl/OZv93DB7Ln/533i8e/mZXLi/P+"
+        crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/c5c1d06ed2.js" crossorigin="anonymous"></script>
+    <script src="jscodeHw8.js"></script>
+</head>
+
+<body class="bg-info">
+    <div class="container-fluid d-flex w-100 p-0 m-0 ">
+        <div class="half1 flex-fill   d-flex flex-column justify-content-center align-items-center align-content-center">
+            <h1 class="text-dark">Exercise 8 javascript</h1>
+            <p id="len" class="text-light">Number of char:</p>
+            <p id="word" class="text-light">Number of words:</p>
+            <p id="sent" class="text-light">Number of sentences:</p>
+            <form class="p-4 w-100 d-flex flex-column" onsubmit="return false">
+                <div class="form-group ">
+                    <div>
+                        <i class="fa-solid fa-paragraph" style="color: #fff;"></i>
+                        <label for="email" class="text-light">Textarea</label>
+                    </div>
+                    <textarea class="form-control" id="Textarea1" rows="7" onkeyup="calc()"></textarea>
+                </div>
+                <button  class="btn btn-dark ml-auto" onclick="calc()">count</button>
+            </form>
+        </div>
+    </div>
+</body>
+
+</html>
